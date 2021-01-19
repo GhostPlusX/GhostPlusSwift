@@ -50,7 +50,7 @@
 		3A3A1CBE917800DC3030A0DCC146989A /* Pods-GhostPlusSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostPlusSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		555D59B025B5EA480090DD53 /* DeviceUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DeviceUtil.swift; path = GhostPlusSwift/Classes/DeviceUtil.swift; sourceTree = "<group>"; };
 		555D59DB25B5EE1F0090DD53 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		555D59F025B6B6770090DD53 /* WebKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitManager.swift; sourceTree = "<group>"; };
+		555D59F025B6B6770090DD53 /* WebKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebKitManager.swift; path = GhostPlusSwift/Classes/WebKitManager.swift; sourceTree = "<group>"; };
 		5616E34C6DCB7942592979514ECFB97E /* Pods-GhostPlusSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GhostPlusSwift_Example-umbrella.h"; sourceTree = "<group>"; };
 		6AC76526DEDE4F19C4BC7C05A3ADAD58 /* Pods-GhostPlusSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GhostPlusSwift_Example-Info.plist"; sourceTree = "<group>"; };
 		6C13DA32C3F2697C9AE14ED1C5C0A4E6 /* GhostPlusSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GhostPlusSwift.swift; path = GhostPlusSwift/Classes/GhostPlusSwift.swift; sourceTree = "<group>"; };
