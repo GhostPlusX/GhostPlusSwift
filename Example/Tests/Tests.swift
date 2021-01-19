@@ -1,5 +1,4 @@
 import XCTest
-import GhostPlusSwift
 
 class Tests: XCTestCase {
     

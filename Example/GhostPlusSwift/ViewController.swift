@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         let uuid:String = DeviceUtil.sharedInstance.generateDeviceUUID()
         NSLog("UUID String \(uuid)")
         
+        KeychainManager.sharedInstance.accessGroup = "GhostPlusSwift" 
+        
     }
 
     override func didReceiveMemoryWarning() {
