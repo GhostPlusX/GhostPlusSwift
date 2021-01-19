@@ -40,11 +40,27 @@ public class KeychainManager {
         
     }
     
-    public func getKeychain(key:String) ->String? {
-        return keychain.get( key )
+    public func getKeychain(key:String) ->Any  {
+        return keychain.get( key )!
     }
     
+    public func setKeychain(key:String , value:Bool? ) throws -> Void {
+        guard _accessGroup != nil  else  {
+            throw KeychainError.AccessGroupNotDefined
+        }
+        
+        keychain.set(value ?? false ,  forKey: key)
+    }
      
+    public func setKeychain(key:String , value:Data? ) throws -> Void {
+        guard _accessGroup != nil  else  {
+            throw KeychainError.AccessGroupNotDefined
+        }
+        
+        keychain.set(value ?? Data() ,  forKey: key)
+    }
+    
+    
 }
 
 
