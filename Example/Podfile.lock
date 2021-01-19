@@ -1,0 +1,16 @@
+PODS:
+  - GhostPlusSwift (0.1.0)
+
+DEPENDENCIES:
+  - GhostPlusSwift (from `../`)
+
+EXTERNAL SOURCES:
+  GhostPlusSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GhostPlusSwift: 685f4619075575236a33d7da6c28ffaaa5b6f8ae
+
+PODFILE CHECKSUM: d25a40b60dbd8454ccddbe0c99f1c6b83c34ea23
+
+COCOAPODS: 1.10.0.rc.1

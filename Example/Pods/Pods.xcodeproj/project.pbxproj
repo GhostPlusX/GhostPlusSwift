@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F5699F334AB90B2976F2A48AD1E0523 /* Pods-GhostPlusSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC3E7A1C14C7D7CCC41B5657510036A /* Pods-GhostPlusSwift_Example-dummy.m */; };
+		418359C316B2D11DE04774EAB805E35F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		555D59B125B5EA480090DD53 /* DeviceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555D59B025B5EA480090DD53 /* DeviceUtil.swift */; };
+		555D59DC25B5EE1F0090DD53 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555D59DB25B5EE1F0090DD53 /* Utils.swift */; };
+		7EE995278B53073D5F4BD3D6F0936A54 /* GhostPlusSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D322456E2A4E5A82B02FAA50ACF70C3 /* GhostPlusSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88008B99716117298D81DAE238193B86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9539966C744DAB1E3578B2E92BBC9BFA /* Pods-GhostPlusSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF0B9A177DC8FF37E3CF50A56A5144F /* Pods-GhostPlusSwift_Tests-dummy.m */; };
+		99D12DA5B603C0B25F4F4E2401977360 /* GhostPlusSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13DA32C3F2697C9AE14ED1C5C0A4E6 /* GhostPlusSwift.swift */; };
+		B94E6D5AFC06761A850FCE6397AC4949 /* Pods-GhostPlusSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F198DE4F576B1866F472E67FA9A3ABE9 /* Pods-GhostPlusSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA68D3AEC73F2E7E8BC0D97545E3CE01 /* Pods-GhostPlusSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5616E34C6DCB7942592979514ECFB97E /* Pods-GhostPlusSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D32BD456C0C05D14E9443B5FA3522AD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F941C8F34DD8D2CFF334A3E732DCB24D /* GhostPlusSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2908BE15CD1F504612E95C6C2779374 /* GhostPlusSwift-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAC97236B010A7D66F372A9EF34AA5AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD2629859CAD7C058F6BE6A45B4FE022;
+			remoteInfo = GhostPlusSwift;
+		};
+		E4DB98AD20BB11B60A51B7986C9BA08C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D815586C96AECD2AA664A5E686897471;
+			remoteInfo = "Pods-GhostPlusSwift_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A31FEAD1602635FED92E94DCB8C8C86 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0D322456E2A4E5A82B02FAA50ACF70C3 /* GhostPlusSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GhostPlusSwift-umbrella.h"; sourceTree = "<group>"; };
+		14C4D61238D1E53D8DACCB3FFC79BBA1 /* GhostPlusSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GhostPlusSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		17A44B2B613FF04AF02A29BD1E494F38 /* Pods-GhostPlusSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostPlusSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2FC3E7A1C14C7D7CCC41B5657510036A /* Pods-GhostPlusSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GhostPlusSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36FE6B2653BF2733FA237E05A1377A8C /* Pods_GhostPlusSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GhostPlusSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3A1CBE917800DC3030A0DCC146989A /* Pods-GhostPlusSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostPlusSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		555D59B025B5EA480090DD53 /* DeviceUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DeviceUtil.swift; path = GhostPlusSwift/Classes/DeviceUtil.swift; sourceTree = "<group>"; };
+		555D59DB25B5EE1F0090DD53 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		5616E34C6DCB7942592979514ECFB97E /* Pods-GhostPlusSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GhostPlusSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		6AC76526DEDE4F19C4BC7C05A3ADAD58 /* Pods-GhostPlusSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GhostPlusSwift_Example-Info.plist"; sourceTree = "<group>"; };
+		6C13DA32C3F2697C9AE14ED1C5C0A4E6 /* GhostPlusSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GhostPlusSwift.swift; path = GhostPlusSwift/Classes/GhostPlusSwift.swift; sourceTree = "<group>"; };
+		6CDFA18EDEE45BD0223962C3055B8AB8 /* Pods-GhostPlusSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GhostPlusSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		727517813F6FD38ED7506CBA6A72FC55 /* Pods-GhostPlusSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostPlusSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		824CE26ADC83AEC422C0C5CD16F63431 /* Pods-GhostPlusSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostPlusSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8C0905A8EC58C5FCBAA0BCE4FD060653 /* Pods_GhostPlusSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GhostPlusSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E053C8F2B90314D3547647C9C1243A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		96B74D3DB80619CBF1FAB54D39CE52B5 /* GhostPlusSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GhostPlusSwift.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EDC9C0986735BF3513D6A29D3A98AED /* GhostPlusSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GhostPlusSwift.debug.xcconfig; sourceTree = "<group>"; };
+		A3BBB2145B55F90D837ED90F364AC9E2 /* Pods-GhostPlusSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GhostPlusSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5ADDADF2A4E4AB4228CD5F1B56EE8D4 /* Pods-GhostPlusSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GhostPlusSwift_Example.modulemap"; sourceTree = "<group>"; };
+		BBF0B9A177DC8FF37E3CF50A56A5144F /* Pods-GhostPlusSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GhostPlusSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		C2908BE15CD1F504612E95C6C2779374 /* GhostPlusSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GhostPlusSwift-dummy.m"; sourceTree = "<group>"; };
+		D03AA97A6DF0DCE825B405C957EEDE60 /* Pods-GhostPlusSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GhostPlusSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D7FAA0A90F476F1D87B359D3346D9075 /* Pods-GhostPlusSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GhostPlusSwift_Tests-Info.plist"; sourceTree = "<group>"; };
+		D81E1685DFDF672BF23895D8AAFD5D07 /* Pods-GhostPlusSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GhostPlusSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2CD3A40AE807C996DCF8D250152FB63 /* Pods-GhostPlusSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GhostPlusSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		E5A8E31BE4345AD7ACCC26C6D9C2C26E /* GhostPlusSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GhostPlusSwift-prefix.pch"; sourceTree = "<group>"; };
+		E5D8C1000F545D8DC14E5B5528C4C226 /* GhostPlusSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GhostPlusSwift-Info.plist"; sourceTree = "<group>"; };
+		EC5FDFE96CEC42BA589E2ECA1714774E /* Pods-GhostPlusSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GhostPlusSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE12419DB863B5F01CCEC72881BBC57D /* GhostPlusSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GhostPlusSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F198DE4F576B1866F472E67FA9A3ABE9 /* Pods-GhostPlusSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GhostPlusSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FF9AB36C86DAB7839225F1ED30C1A3C8 /* GhostPlusSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GhostPlusSwift.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		034DA8A01A061505041CC02E40F11CA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88008B99716117298D81DAE238193B86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA4733FD8E6715E3E77C56F43430CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418359C316B2D11DE04774EAB805E35F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DFB0446A93E3927284144308774A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32BD456C0C05D14E9443B5FA3522AD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F27603A71A5B0A8900A2D06BA1F6904 /* Pods-GhostPlusSwift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B5ADDADF2A4E4AB4228CD5F1B56EE8D4 /* Pods-GhostPlusSwift_Example.modulemap */,
+				EC5FDFE96CEC42BA589E2ECA1714774E /* Pods-GhostPlusSwift_Example-acknowledgements.markdown */,
+				A3BBB2145B55F90D837ED90F364AC9E2 /* Pods-GhostPlusSwift_Example-acknowledgements.plist */,
+				2FC3E7A1C14C7D7CCC41B5657510036A /* Pods-GhostPlusSwift_Example-dummy.m */,
+				D03AA97A6DF0DCE825B405C957EEDE60 /* Pods-GhostPlusSwift_Example-frameworks.sh */,
+				6AC76526DEDE4F19C4BC7C05A3ADAD58 /* Pods-GhostPlusSwift_Example-Info.plist */,
+				5616E34C6DCB7942592979514ECFB97E /* Pods-GhostPlusSwift_Example-umbrella.h */,
+				17A44B2B613FF04AF02A29BD1E494F38 /* Pods-GhostPlusSwift_Example.debug.xcconfig */,
+				3A3A1CBE917800DC3030A0DCC146989A /* Pods-GhostPlusSwift_Example.release.xcconfig */,
+			);
+			name = "Pods-GhostPlusSwift_Example";
+			path = "Target Support Files/Pods-GhostPlusSwift_Example";
+			sourceTree = "<group>";
+		};
+		4F20B3B39D8AF5B03077223015178737 /* GhostPlusSwift */ = {
+			isa = PBXGroup;
+			children = (
+				6C13DA32C3F2697C9AE14ED1C5C0A4E6 /* GhostPlusSwift.swift */,
+				555D59B025B5EA480090DD53 /* DeviceUtil.swift */,
+				ACE57EF9EF237F4B5415D8C595322BF2 /* Pod */,
+				813107EF85903091A9723FDFBA561E64 /* Support Files */,
+				555D59DB25B5EE1F0090DD53 /* Utils.swift */,
+			);
+			name = GhostPlusSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6CC9CCD55D735D248A35C67A53D3E561 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F20B3B39D8AF5B03077223015178737 /* GhostPlusSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		813107EF85903091A9723FDFBA561E64 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF9AB36C86DAB7839225F1ED30C1A3C8 /* GhostPlusSwift.modulemap */,
+				C2908BE15CD1F504612E95C6C2779374 /* GhostPlusSwift-dummy.m */,
+				E5D8C1000F545D8DC14E5B5528C4C226 /* GhostPlusSwift-Info.plist */,
+				E5A8E31BE4345AD7ACCC26C6D9C2C26E /* GhostPlusSwift-prefix.pch */,
+				0D322456E2A4E5A82B02FAA50ACF70C3 /* GhostPlusSwift-umbrella.h */,
+				9EDC9C0986735BF3513D6A29D3A98AED /* GhostPlusSwift.debug.xcconfig */,
+				96B74D3DB80619CBF1FAB54D39CE52B5 /* GhostPlusSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GhostPlusSwift";
+			sourceTree = "<group>";
+		};
+		A01802E4797FBFCB77E1B631F3588A35 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F27603A71A5B0A8900A2D06BA1F6904 /* Pods-GhostPlusSwift_Example */,
+				F2C0BE7DBEAB1E69BBE51D488DDFB8C3 /* Pods-GhostPlusSwift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ACE57EF9EF237F4B5415D8C595322BF2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				14C4D61238D1E53D8DACCB3FFC79BBA1 /* GhostPlusSwift.podspec */,
+				8E053C8F2B90314D3547647C9C1243A1 /* LICENSE */,
+				0A31FEAD1602635FED92E94DCB8C8C86 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6CC9CCD55D735D248A35C67A53D3E561 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F4398A81B180FA748BCC86C9A3AC3BCF /* Products */,
+				A01802E4797FBFCB77E1B631F3588A35 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2C0BE7DBEAB1E69BBE51D488DDFB8C3 /* Pods-GhostPlusSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E2CD3A40AE807C996DCF8D250152FB63 /* Pods-GhostPlusSwift_Tests.modulemap */,
+				6CDFA18EDEE45BD0223962C3055B8AB8 /* Pods-GhostPlusSwift_Tests-acknowledgements.markdown */,
+				D81E1685DFDF672BF23895D8AAFD5D07 /* Pods-GhostPlusSwift_Tests-acknowledgements.plist */,
+				BBF0B9A177DC8FF37E3CF50A56A5144F /* Pods-GhostPlusSwift_Tests-dummy.m */,
+				D7FAA0A90F476F1D87B359D3346D9075 /* Pods-GhostPlusSwift_Tests-Info.plist */,
+				F198DE4F576B1866F472E67FA9A3ABE9 /* Pods-GhostPlusSwift_Tests-umbrella.h */,
+				727517813F6FD38ED7506CBA6A72FC55 /* Pods-GhostPlusSwift_Tests.debug.xcconfig */,
+				824CE26ADC83AEC422C0C5CD16F63431 /* Pods-GhostPlusSwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-GhostPlusSwift_Tests";
+			path = "Target Support Files/Pods-GhostPlusSwift_Tests";
+			sourceTree = "<group>";
+		};
+		F4398A81B180FA748BCC86C9A3AC3BCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE12419DB863B5F01CCEC72881BBC57D /* GhostPlusSwift.framework */,
+				36FE6B2653BF2733FA237E05A1377A8C /* Pods_GhostPlusSwift_Example.framework */,
+				8C0905A8EC58C5FCBAA0BCE4FD060653 /* Pods_GhostPlusSwift_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E58B979C99B4950D08A8F0552496EA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94E6D5AFC06761A850FCE6397AC4949 /* Pods-GhostPlusSwift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2013595C2D32DBA8A9BF26775192D4DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA68D3AEC73F2E7E8BC0D97545E3CE01 /* Pods-GhostPlusSwift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74C6C29F8FBC2DD2EF17E70579D7B21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE995278B53073D5F4BD3D6F0936A54 /* GhostPlusSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23512B496BDC35F0E3EADFCC93FF37A0 /* Pods-GhostPlusSwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37BDBF1404FBF5840D07197BF6460E8C /* Build configuration list for PBXNativeTarget "Pods-GhostPlusSwift_Tests" */;
+			buildPhases = (
+				1E58B979C99B4950D08A8F0552496EA0 /* Headers */,
+				508193A964CD5C623097CC5ED80F9D82 /* Sources */,
+				F8DFB0446A93E3927284144308774A51 /* Frameworks */,
+				63AA298B61D930835DF1F800615E80BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07162762E34547F2DED96BBD46EF8F5F /* PBXTargetDependency */,
+			);
+			name = "Pods-GhostPlusSwift_Tests";
+			productName = "Pods-GhostPlusSwift_Tests";
+			productReference = 8C0905A8EC58C5FCBAA0BCE4FD060653 /* Pods_GhostPlusSwift_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D815586C96AECD2AA664A5E686897471 /* Pods-GhostPlusSwift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD72202180888CD97CC33A4AFC938030 /* Build configuration list for PBXNativeTarget "Pods-GhostPlusSwift_Example" */;
+			buildPhases = (
+				2013595C2D32DBA8A9BF26775192D4DD /* Headers */,
+				EF62AC32913ED1E249CEA4D8FE842A46 /* Sources */,
+				3FA4733FD8E6715E3E77C56F43430CE7 /* Frameworks */,
+				2E926CF24DCFCA04E693961CC7C31B5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46C4900BE87C2AB2FA3E67FFF3FF06C0 /* PBXTargetDependency */,
+			);
+			name = "Pods-GhostPlusSwift_Example";
+			productName = "Pods-GhostPlusSwift_Example";
+			productReference = 36FE6B2653BF2733FA237E05A1377A8C /* Pods_GhostPlusSwift_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD2629859CAD7C058F6BE6A45B4FE022 /* GhostPlusSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E429C8352AD80A42152DEC8F7E6E9AD /* Build configuration list for PBXNativeTarget "GhostPlusSwift" */;
+			buildPhases = (
+				F74C6C29F8FBC2DD2EF17E70579D7B21 /* Headers */,
+				27416B94A78F99D13C7A81397271D76A /* Sources */,
+				034DA8A01A061505041CC02E40F11CA2 /* Frameworks */,
+				160AB9DD74AA0B88B5A8D6607BDF2885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GhostPlusSwift;
+			productName = GhostPlusSwift;
+			productReference = EE12419DB863B5F01CCEC72881BBC57D /* GhostPlusSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F4398A81B180FA748BCC86C9A3AC3BCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD2629859CAD7C058F6BE6A45B4FE022 /* GhostPlusSwift */,
+				D815586C96AECD2AA664A5E686897471 /* Pods-GhostPlusSwift_Example */,
+				23512B496BDC35F0E3EADFCC93FF37A0 /* Pods-GhostPlusSwift_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		160AB9DD74AA0B88B5A8D6607BDF2885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E926CF24DCFCA04E693961CC7C31B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63AA298B61D930835DF1F800615E80BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27416B94A78F99D13C7A81397271D76A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F941C8F34DD8D2CFF334A3E732DCB24D /* GhostPlusSwift-dummy.m in Sources */,
+				555D59B125B5EA480090DD53 /* DeviceUtil.swift in Sources */,
+				99D12DA5B603C0B25F4F4E2401977360 /* GhostPlusSwift.swift in Sources */,
+				555D59DC25B5EE1F0090DD53 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		508193A964CD5C623097CC5ED80F9D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9539966C744DAB1E3578B2E92BBC9BFA /* Pods-GhostPlusSwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF62AC32913ED1E249CEA4D8FE842A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5699F334AB90B2976F2A48AD1E0523 /* Pods-GhostPlusSwift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07162762E34547F2DED96BBD46EF8F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GhostPlusSwift_Example";
+			target = D815586C96AECD2AA664A5E686897471 /* Pods-GhostPlusSwift_Example */;
+			targetProxy = E4DB98AD20BB11B60A51B7986C9BA08C /* PBXContainerItemProxy */;
+		};
+		46C4900BE87C2AB2FA3E67FFF3FF06C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GhostPlusSwift;
+			target = DD2629859CAD7C058F6BE6A45B4FE022 /* GhostPlusSwift */;
+			targetProxy = DAC97236B010A7D66F372A9EF34AA5AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A6A4F6F0B21621A72FB57D1C59C6059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 824CE26ADC83AEC422C0C5CD16F63431 /* Pods-GhostPlusSwift_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GhostPlusSwift_Tests/Pods-GhostPlusSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GhostPlusSwift_Tests/Pods-GhostPlusSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45D7211D91F08578FBE7251A84E4E22E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EDC9C0986735BF3513D6A29D3A98AED /* GhostPlusSwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GhostPlusSwift/GhostPlusSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GhostPlusSwift/GhostPlusSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GhostPlusSwift/GhostPlusSwift.modulemap";
+				PRODUCT_MODULE_NAME = GhostPlusSwift;
+				PRODUCT_NAME = GhostPlusSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4EBC741460BC710C963D24CAAB3BC925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8B8B0FEE17B95D7F053093EFBEEDC1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3A1CBE917800DC3030A0DCC146989A /* Pods-GhostPlusSwift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GhostPlusSwift_Example/Pods-GhostPlusSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GhostPlusSwift_Example/Pods-GhostPlusSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A40FB7C4B9460AE765A736AB575EEB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BEF51F84170A527AFE1251E94A51EABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727517813F6FD38ED7506CBA6A72FC55 /* Pods-GhostPlusSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GhostPlusSwift_Tests/Pods-GhostPlusSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GhostPlusSwift_Tests/Pods-GhostPlusSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E70A12B72684580576EA19C26EFAAB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B74D3DB80619CBF1FAB54D39CE52B5 /* GhostPlusSwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GhostPlusSwift/GhostPlusSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GhostPlusSwift/GhostPlusSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GhostPlusSwift/GhostPlusSwift.modulemap";
+				PRODUCT_MODULE_NAME = GhostPlusSwift;
+				PRODUCT_NAME = GhostPlusSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EAB77E01C2A1CDF5A5E3274957DCC195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A44B2B613FF04AF02A29BD1E494F38 /* Pods-GhostPlusSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GhostPlusSwift_Example/Pods-GhostPlusSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GhostPlusSwift_Example/Pods-GhostPlusSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E429C8352AD80A42152DEC8F7E6E9AD /* Build configuration list for PBXNativeTarget "GhostPlusSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D7211D91F08578FBE7251A84E4E22E /* Debug */,
+				E70A12B72684580576EA19C26EFAAB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37BDBF1404FBF5840D07197BF6460E8C /* Build configuration list for PBXNativeTarget "Pods-GhostPlusSwift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF51F84170A527AFE1251E94A51EABD /* Debug */,
+				2A6A4F6F0B21621A72FB57D1C59C6059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EBC741460BC710C963D24CAAB3BC925 /* Debug */,
+				A40FB7C4B9460AE765A736AB575EEB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD72202180888CD97CC33A4AFC938030 /* Build configuration list for PBXNativeTarget "Pods-GhostPlusSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB77E01C2A1CDF5A5E3274957DCC195 /* Debug */,
+				8B8B0FEE17B95D7F053093EFBEEDC1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

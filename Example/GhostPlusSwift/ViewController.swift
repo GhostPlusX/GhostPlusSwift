@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import GhostPlusSwift
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let uuid:String = DeviceUtil.sharedInstance.generateDeviceUUID()
+        NSLog("UUID String \(uuid)")
+        
     }
 
     override func didReceiveMemoryWarning() {

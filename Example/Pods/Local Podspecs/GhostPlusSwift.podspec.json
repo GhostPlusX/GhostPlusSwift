@@ -1,0 +1,22 @@
+{
+  "name": "GhostPlusSwift",
+  "version": "0.1.0",
+  "summary": "A short description of GhostPlusSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/david1000@gmail.com/GhostPlusSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "david1000@gmail.com": "daivd1000@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/david1000@gmail.com/GhostPlusSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "GhostPlusSwift/Classes/**/*"
+}

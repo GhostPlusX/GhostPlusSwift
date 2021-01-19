@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GhostPlusSwift'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GhostPlusSwift.'
+  s.summary          = 'GhostPlus Framework for Swift'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This is a GhostpLus Swift framework which is used as Mobile Hybrid Application Common Framework
                        DESC
 
   s.homepage         = 'https://github.com/david1000@gmail.com/GhostPlusSwift'
@@ -31,6 +31,22 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'GhostPlusSwift/Classes/**/*'
+  
+  s.platform = :iOS , "10.0"
+  
+  s.dependency = 'Moya', '~> 14'
+  s.dependency = 'SwiftyJSON', '~> 5.0'
+  s.dependency = 'RxSwift', '~> 5'
+  s.dependency = 'RxCocoa', '~> 5'
+  s.dependency = 'Moya/RxSwift'
+  s.dependency = 'ObjectMapper', '~> 4'
+  s.dependency = 'RxSwift', '~> 5'
+  s.dependency = 'SwiftyXMLParser', '~> 5'
+  s.dependency = 'Defaults', '~> 4'
+  s.dependency = 'KeychainSwift', '~> 19'
+  s.dependency = 'CryptoSwift', '~> 1'
+  s.dependency = 'Device', '~> 3'
+  s.dependency = 'R.swift', '~> 5'
   
   # s.resource_bundles = {
   #   'GhostPlusSwift' => ['GhostPlusSwift/Assets/*.png']
