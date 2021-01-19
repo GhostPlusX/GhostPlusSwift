@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'GhostPlusSwift/Classes/**/*'
   
+  s.dependency   'Alamofire', '~> 5.2'
   s.dependency   'CryptoSwift', '~> 1'
   s.dependency   'Device', '~> 3'
   s.dependency   'SwiftyJSON', '~> 5.0'

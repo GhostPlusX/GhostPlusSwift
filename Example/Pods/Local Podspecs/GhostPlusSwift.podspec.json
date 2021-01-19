@@ -16,10 +16,13 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "iOS": "9.0"
+    "ios": "9.0"
   },
   "source_files": "GhostPlusSwift/Classes/**/*",
   "dependencies": {
+    "Alamofire": [
+      "~> 5.2"
+    ],
     "CryptoSwift": [
       "~> 1"
     ],

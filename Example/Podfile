@@ -4,6 +4,7 @@ platform :ios, '9.0'
 
 target 'GhostPlusSwift_Example' do
   
+  pod 'Alamofire', '~> 5.2'
   pod 'SwiftyJSON', '~> 5.0'
   pod 'ObjectMapper', '~> 4'
   pod 'SwiftyXMLParser', '~> 5'
