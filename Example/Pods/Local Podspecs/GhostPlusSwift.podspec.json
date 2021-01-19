@@ -1,8 +1,8 @@
 {
   "name": "GhostPlusSwift",
   "version": "0.1.0",
-  "summary": "A short description of GhostPlusSwift.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "GhostPlus Framework for Swift",
+  "description": "This is a GhostpLus Swift framework which is used as Mobile Hybrid Application Common Framework",
   "homepage": "https://github.com/david1000@gmail.com/GhostPlusSwift",
   "license": {
     "type": "MIT",
@@ -16,7 +16,27 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "iOS": "9.0"
   },
-  "source_files": "GhostPlusSwift/Classes/**/*"
+  "source_files": "GhostPlusSwift/Classes/**/*",
+  "dependencies": {
+    "CryptoSwift": [
+      "~> 1"
+    ],
+    "Device": [
+      "~> 3"
+    ],
+    "SwiftyJSON": [
+      "~> 5.0"
+    ],
+    "ObjectMapper": [
+      "~> 4"
+    ],
+    "SwiftyXMLParser": [
+      "~> 5"
+    ],
+    "KeychainSwift": [
+      "~> 19"
+    ]
+  }
 }

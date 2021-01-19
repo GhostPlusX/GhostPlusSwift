@@ -4,23 +4,13 @@ platform :ios, '9.0'
 
 target 'GhostPlusSwift_Example' do
   
-  pod 'Moya', '~> 14'
   pod 'SwiftyJSON', '~> 5.0'
-  pod 'RxSwift', '~> 5'
-  pod 'RxCocoa', '~> 5'
-  pod 'Moya/RxSwift'
   pod 'ObjectMapper', '~> 4'
-  pod 'RxSwift', '~> 5'
   pod 'SwiftyXMLParser', '~> 5'
-  pod 'Defaults', '~> 4'
   pod 'KeychainSwift', '~> 19'
   pod 'CryptoSwift', '~> 1'
   pod 'Device', '~> 3'
-  pod 'R.swift', '~> 5'
   
   pod 'GhostPlusSwift', :path => '../'
 
-  target 'GhostPlusSwift_Tests' do
-    inherit! :search_path
-  end
 end

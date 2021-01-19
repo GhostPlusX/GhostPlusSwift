@@ -12,6 +12,7 @@
 		555D59B125B5EA480090DD53 /* DeviceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555D59B025B5EA480090DD53 /* DeviceUtil.swift */; };
 		555D59DC25B5EE1F0090DD53 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555D59DB25B5EE1F0090DD53 /* Utils.swift */; };
 		555D59F125B6B6770090DD53 /* WebKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555D59F025B6B6770090DD53 /* WebKitManager.swift */; };
+		555D59F625B6BC440090DD53 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555D59F525B6BC440090DD53 /* KeychainManager.swift */; };
 		7EE995278B53073D5F4BD3D6F0936A54 /* GhostPlusSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D322456E2A4E5A82B02FAA50ACF70C3 /* GhostPlusSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88008B99716117298D81DAE238193B86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		9539966C744DAB1E3578B2E92BBC9BFA /* Pods-GhostPlusSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF0B9A177DC8FF37E3CF50A56A5144F /* Pods-GhostPlusSwift_Tests-dummy.m */; };
@@ -51,6 +52,7 @@
 		555D59B025B5EA480090DD53 /* DeviceUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DeviceUtil.swift; path = GhostPlusSwift/Classes/DeviceUtil.swift; sourceTree = "<group>"; };
 		555D59DB25B5EE1F0090DD53 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		555D59F025B6B6770090DD53 /* WebKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebKitManager.swift; path = GhostPlusSwift/Classes/WebKitManager.swift; sourceTree = "<group>"; };
+		555D59F525B6BC440090DD53 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KeychainManager.swift; path = GhostPlusSwift/Classes/KeychainManager.swift; sourceTree = "<group>"; };
 		5616E34C6DCB7942592979514ECFB97E /* Pods-GhostPlusSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GhostPlusSwift_Example-umbrella.h"; sourceTree = "<group>"; };
 		6AC76526DEDE4F19C4BC7C05A3ADAD58 /* Pods-GhostPlusSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GhostPlusSwift_Example-Info.plist"; sourceTree = "<group>"; };
 		6C13DA32C3F2697C9AE14ED1C5C0A4E6 /* GhostPlusSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GhostPlusSwift.swift; path = GhostPlusSwift/Classes/GhostPlusSwift.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				ACE57EF9EF237F4B5415D8C595322BF2 /* Pod */,
 				813107EF85903091A9723FDFBA561E64 /* Support Files */,
 				555D59DB25B5EE1F0090DD53 /* Utils.swift */,
+				555D59F525B6BC440090DD53 /* KeychainManager.swift */,
 			);
 			name = GhostPlusSwift;
 			path = ../..;
@@ -377,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F941C8F34DD8D2CFF334A3E732DCB24D /* GhostPlusSwift-dummy.m in Sources */,
+				555D59F625B6BC440090DD53 /* KeychainManager.swift in Sources */,
 				555D59B125B5EA480090DD53 /* DeviceUtil.swift in Sources */,
 				99D12DA5B603C0B25F4F4E2401977360 /* GhostPlusSwift.swift in Sources */,
 				555D59DC25B5EE1F0090DD53 /* Utils.swift in Sources */,

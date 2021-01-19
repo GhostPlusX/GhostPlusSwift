@@ -32,21 +32,14 @@ Pod::Spec.new do |s|
 
   s.source_files = 'GhostPlusSwift/Classes/**/*'
   
-  s.platform = :iOS , "10.0"
+  s.platform = :iOS , "9.0"
   
-  s.dependency = 'Moya', '~> 14'
-  s.dependency = 'SwiftyJSON', '~> 5.0'
-  s.dependency = 'RxSwift', '~> 5'
-  s.dependency = 'RxCocoa', '~> 5'
-  s.dependency = 'Moya/RxSwift'
-  s.dependency = 'ObjectMapper', '~> 4'
-  s.dependency = 'RxSwift', '~> 5'
-  s.dependency = 'SwiftyXMLParser', '~> 5'
-  s.dependency = 'Defaults', '~> 4'
-  s.dependency = 'KeychainSwift', '~> 19'
-  s.dependency = 'CryptoSwift', '~> 1'
-  s.dependency = 'Device', '~> 3'
-  s.dependency = 'R.swift', '~> 5'
+  s.dependency   'CryptoSwift', '~> 1'
+  s.dependency   'Device', '~> 3'
+  s.dependency   'SwiftyJSON', '~> 5.0'
+  s.dependency   'ObjectMapper', '~> 4'
+  s.dependency   'SwiftyXMLParser', '~> 5'
+  s.dependency   'KeychainSwift', '~> 19'
   
   # s.resource_bundles = {
   #   'GhostPlusSwift' => ['GhostPlusSwift/Assets/*.png']
