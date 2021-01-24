@@ -40,6 +40,9 @@
     ],
     "KeychainSwift": [
       "~> 19"
+    ],
+    "SnapKit": [
+
     ]
   }
 }

@@ -31,7 +31,7 @@ public class WebKitManager {
     }
     
     // MARK: - public methods
-    func createWKWebView() -> WKWebView {
+    public func createWKWebView() -> WKWebView {
         let preferences = WKPreferences()
         
         let userContentController = WKUserContentController()
@@ -66,7 +66,7 @@ public class WebKitManager {
         return webView
     }
     
-    func grabUserAgent() {
+    public func grabUserAgent() {
         
         var finished = false
         var userAgent: String?
