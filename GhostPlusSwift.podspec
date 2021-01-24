@@ -37,6 +37,7 @@ Pod::Spec.new do |s|
   s.dependency   'ObjectMapper', '~> 4'
   s.dependency   'SwiftyXMLParser', '~> 5'
   s.dependency   'KeychainSwift', '~> 19'
+  s.dependency   'SnapKit' 
   
   # s.resource_bundles = {
   #   'GhostPlusSwift' => ['GhostPlusSwift/Assets/*.png']

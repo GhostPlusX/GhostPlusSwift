@@ -11,6 +11,7 @@ target 'GhostPlusSwift_Example' do
   pod 'KeychainSwift', '~> 19'
   pod 'CryptoSwift', '~> 1'
   pod 'Device', '~> 3'
+  pod 'SnapKit'
   
   pod 'GhostPlusSwift', :path => '../'
 
