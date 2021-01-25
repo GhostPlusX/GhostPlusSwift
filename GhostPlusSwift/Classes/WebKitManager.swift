@@ -9,6 +9,30 @@ import UIKit
 import WebKit
 
 
+struct ISPScheme: Decodable {
+    private enum CodingKeys: String, CodingKey {
+        case scheme, storeid, name
+    }
+
+    let scheme: String
+    let storeid: String
+    let name: String?
+}
+
+
+struct PropertyError: Error {
+    let message: String
+
+    init(_ message: String) {
+        self.message = message
+    }
+
+    public var localizedDescription: String {
+        return message
+    }
+}
+
+
 public class WebKitManager {
     // MARK: - static variables
     public static let shared = WebKitManager()
@@ -25,9 +49,26 @@ public class WebKitManager {
         set(value) { self._title = value}
     }
     
+    var ispApps:Array<ISPScheme>?
+    
+    
+    var schemes:Array<String>?
+    
+    func parseISPProps() throws ->Array<ISPScheme>  {
+        guard let url = Bundle.main.url(forResource: "ispscheme", withExtension: "plist") else {
+            throw PropertyError("ispscheme.plist file is required")
+        }
+        let data = try! Data(contentsOf: url)
+        let decoder = PropertyListDecoder()
+        return try! decoder.decode(Array<ISPScheme>.self, from: data)
+    }
+    
     // MARK: - initialize
     private init() {
-        
+       self.ispApps = try? self.parseISPProps()
+        if self.ispApps == nil {
+            self.ispApps = Array()
+        }
     }
     
     // MARK: - public methods
@@ -174,5 +215,40 @@ extension WebKitManager {
         }
         return true
     }
+    
+    func decidePolicyForISP(_ navigationAction: WKNavigationAction) ->Bool {
+        
+        guard let url = navigationAction.request.url else { return false }
+        
+        for element in self.ispApps! {
+            if url.scheme == element.scheme {
+                
+                if self.isRegisteredCanOpenURLScheme(scheme: element.scheme) {
+                    
+                    if UIApplication.shared.canOpenURL(url) {
+                        UIApplication.shared.openURL(url)
+                    } else {
+                        let store_url = "https://itunes.apple.com/app/id\(element.storeid)"
+                        UIApplication.shared.openURL(URL.init(string: store_url)!)
+                    }
+                    
+                }
+                
+                return false
+            }
+        }
+        
+        return true
+    }
+    
+    func isRegisteredCanOpenURLScheme(scheme:String) -> Bool {
+        
+        if  self.schemes == nil  {
+            self.schemes =   Bundle.main.infoDictionary?["LSApplicationQueriesSchemes"] as? Array<String>
+        }
+        
+        return self.schemes!.contains(scheme)
+    }
+ 
+    
 }
-
