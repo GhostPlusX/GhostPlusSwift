@@ -121,7 +121,7 @@ public class WebKitManager {
         
         // synchronous
         while !finished {
-            RunLoop.current.run(mode: RunLoopMode.defaultRunLoopMode, before: Date.distantFuture)
+            RunLoop.current.run(mode: .defaultRunLoopMode, before: .distantFuture)
         }
         
         NSLog("userAgent: \(String(describing: userAgent))")
