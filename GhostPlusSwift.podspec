@@ -30,13 +30,13 @@ Pod::Spec.new do |s|
 
   s.source_files = 'GhostPlusSwift/Classes/**/*'
   
-  s.dependency   'Alamofire'
-  s.dependency   'CryptoSwift'
-  s.dependency   'Device'
-  s.dependency   'SwiftyJSON'
-  s.dependency   'ObjectMapper'
-  s.dependency   'SwiftyXMLParser'
-  s.dependency   'KeychainSwift'
+  s.dependency   'Alamofire', '~> 4'
+  s.dependency   'CryptoSwift', '~> 1'
+  s.dependency   'Device', '~> 3'
+  s.dependency   'SwiftyJSON', '~> 5.0'
+  s.dependency   'ObjectMapper', '~> 4'
+  s.dependency   'SwiftyXMLParser', '~> 5'
+  s.dependency   'KeychainSwift', '~> 19'
   s.dependency   'SnapKit' 
   
   # s.resource_bundles = {
