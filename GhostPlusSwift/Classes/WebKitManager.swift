@@ -129,7 +129,7 @@ public class WebKitManager {
         defaultUserAgent = userAgent
     }
     
-    func setAppendUserAgent(_ appendUserAgent: String) {
+    public func setAppendUserAgent(_ appendUserAgent: String) {
         if let userAgent = defaultUserAgent?.appending(" \(appendUserAgent)") {
             UserDefaults.standard.register(defaults: ["UserAgent": userAgent])
         }
@@ -138,7 +138,7 @@ public class WebKitManager {
 
 // MARK: - WKUIDelegate
 extension WebKitManager {
-    static func runJavaScriptAlertPanel(viewControllerToPresent: UIViewController, title:String? = "GhostPlus", message: String, okButton:String? = "OK" , completionHandler: @escaping () -> Void) {
+    public static func runJavaScriptAlertPanel(viewControllerToPresent: UIViewController, title:String? = "GhostPlus", message: String, okButton:String? = "OK" , completionHandler: @escaping () -> Void) {
         let alert = UIAlertController.init(title: (title) , message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction.init(title:okButton , style: .cancel, handler: { _ in
             completionHandler()
@@ -146,7 +146,7 @@ extension WebKitManager {
         viewControllerToPresent.present(alert, animated: true, completion: nil)
     }
     
-    static func runJavaScriptConfirmPanel(viewControllerToPresent: UIViewController, message: String, title:String? = "GhostPlus" , okButton:String? = "OK" , cancelButton:String? = "Cancel" , completionHandler: @escaping (Bool) -> Void) {
+    public static func runJavaScriptConfirmPanel(viewControllerToPresent: UIViewController, message: String, title:String? = "GhostPlus" , okButton:String? = "OK" , cancelButton:String? = "Cancel" , completionHandler: @escaping (Bool) -> Void) {
         let alert = UIAlertController.init(title:title , message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction.init(title: okButton, style: .cancel, handler: { _ in
             completionHandler(true)
@@ -157,7 +157,7 @@ extension WebKitManager {
         viewControllerToPresent.present(alert, animated: true, completion: nil)
     }
     
-    static func runJavaScriptTextInputPanel(viewControllerToPresent: UIViewController, title:String? = "GhostPlus" , okButton:String? = "OK" , cancelButton:String? = "Cancel" ,  prompt: String, defaultText: String?, completionHandler: @escaping (String?) -> Void) {
+    public static func runJavaScriptTextInputPanel(viewControllerToPresent: UIViewController, title:String? = "GhostPlus" , okButton:String? = "OK" , cancelButton:String? = "Cancel" ,  prompt: String, defaultText: String?, completionHandler: @escaping (String?) -> Void) {
         let alert = UIAlertController.init(title: title , message: prompt, preferredStyle: .alert)
         alert.addTextField { textField in
             textField.text = defaultText
@@ -175,7 +175,7 @@ extension WebKitManager {
 
 // MARK: - utils
 extension WebKitManager {
-    func decidePolicyForAppStore(_ navigationAction: WKNavigationAction) -> Bool {
+    public func decidePolicyForAppStore(_ navigationAction: WKNavigationAction) -> Bool {
         guard let url = navigationAction.request.url else { return false }
         if url.host == "itunes.apple.com" {
             if #available(iOS 10.0, *) {
@@ -188,7 +188,7 @@ extension WebKitManager {
         return true
     }
     
-    func decidePolicyForTel(_ navigationAction: WKNavigationAction) -> Bool {
+    public func decidePolicyForTel(_ navigationAction: WKNavigationAction) -> Bool {
         guard let url = navigationAction.request.url else { return false }
         if url.scheme == "tel" && UIApplication.shared.canOpenURL(url) {
             if let aUrl = URL(string: String(format: "telprompt:%@", (url as NSURL).resourceSpecifier ?? "")) {
@@ -203,7 +203,7 @@ extension WebKitManager {
         return true
     }
     
-    func decidePolicyForEmail(_ navigationAction: WKNavigationAction) -> Bool {
+    public func decidePolicyForEmail(_ navigationAction: WKNavigationAction) -> Bool {
         guard let url = navigationAction.request.url else { return false }
         if url.scheme == "mailto" && UIApplication.shared.canOpenURL(url) {
             if #available(iOS 10.0, *) {
@@ -216,7 +216,7 @@ extension WebKitManager {
         return true
     }
     
-    func decidePolicyForISP(_ navigationAction: WKNavigationAction) ->Bool {
+    public func decidePolicyForISP(_ navigationAction: WKNavigationAction) ->Bool {
         
         guard let url = navigationAction.request.url else { return false }
         

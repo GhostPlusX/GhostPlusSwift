@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GhostPlusSwift'
-  s.version          = '0.1.0'
+  s.version          = '1.0'
   s.summary          = 'GhostPlus Framework for Swift'
 
 # This description is used to generate tags and improve search results.
@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
   This is a GhostpLus Swift framework which is used as Mobile Hybrid Application Common Framework
                        DESC
 
-  s.homepage         = 'https://github.com/david1000@gmail.com/GhostPlusSwift'
+  s.homepage         = 'https://github.com/GhostPlusX/GhostPlusSwift.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'david1000@gmail.com' => 'daivd1000@gmail.com' }
-  s.source           = { :git => 'https://github.com/david1000@gmail.com/GhostPlusSwift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/GhostPlusX/GhostPlusSwift.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'GhostPlusSwift/Classes/**/*'
   

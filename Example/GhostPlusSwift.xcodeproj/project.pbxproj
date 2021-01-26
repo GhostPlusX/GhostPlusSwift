@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		19EDC8C4F40E0A4B0CF6FFFE /* Pods_GhostPlusSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2F9BB8E1116FBE2568C335 /* Pods_GhostPlusSwift_Example.framework */; };
+		5555070925BFAE4E00B33188 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5555070825BFAE4E00B33188 /* Config.swift */; };
 		5585FDF925BE917000C94C6F /* ispscheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5585FDF825BE917000C94C6F /* ispscheme.plist */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* MainViewController.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		344DF40A825CDBA54E3E8226 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5555070825BFAE4E00B33188 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		5585FDF825BE917000C94C6F /* ispscheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ispscheme.plist; sourceTree = "<group>"; };
 		59DA50D251D3D86B9990ADCE /* Pods-GhostPlusSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhostPlusSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-GhostPlusSwift_Example/Pods-GhostPlusSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5AAD40E96F3619B60AE4A782 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				5555070825BFAE4E00B33188 /* Config.swift */,
 			);
 			name = "Example for GhostPlusSwift";
 			path = GhostPlusSwift;
@@ -322,6 +325,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* MainViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				5555070925BFAE4E00B33188 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
