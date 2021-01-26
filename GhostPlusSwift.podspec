@@ -26,17 +26,17 @@ Pod::Spec.new do |s|
   s.author           = { 'david1000@gmail.com' => 'daivd1000@gmail.com' }
   s.source           = { :git => 'https://github.com/GhostPlusX/GhostPlusSwift.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'GhostPlusSwift/Classes/**/*'
   
-  s.dependency   'Alamofire', '~> 4'
-  s.dependency   'CryptoSwift', '~> 1'
-  s.dependency   'Device', '~> 3'
-  s.dependency   'SwiftyJSON', '~> 5.0'
-  s.dependency   'ObjectMapper', '~> 4'
-  s.dependency   'SwiftyXMLParser', '~> 5'
-  s.dependency   'KeychainSwift', '~> 19'
+  s.dependency   'Alamofire'
+  s.dependency   'CryptoSwift'
+  s.dependency   'Device'
+  s.dependency   'SwiftyJSON'
+  s.dependency   'ObjectMapper'
+  s.dependency   'SwiftyXMLParser'
+  s.dependency   'KeychainSwift'
   s.dependency   'SnapKit' 
   
   # s.resource_bundles = {
